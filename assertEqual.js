@@ -5,14 +5,8 @@ const assertEqual = function (actual, expected) {
   } else {
     console.log('🛑🛑🛑 Assertion Failed: Lighthouse Labs !== Bootcamp')
   }
-
-
-
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
 
-Rules Configuration
-
+//Rules Configuration
+module.exports = assertEqual;

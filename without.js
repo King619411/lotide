@@ -41,7 +41,7 @@ const words = ["hello", "world", "lighthouse"];
 
 const without = function (source, iteamsToRemove) {
   let newArr = [];
-  for ( let index in source ) {
+  for (let index in source ) {
     if (source[index] !== iteamsToRemove[0]) {
       newArr.push(source[index]);
     }
